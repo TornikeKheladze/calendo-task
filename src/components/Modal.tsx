@@ -43,9 +43,14 @@ const Modal: React.FC<{
             <ArrowIcon className="rotate-180" />
           </button>
         </div>
-        <div className="mx-4 h-10 flex justify-around items-center text-xs">
+        <div className="mx-4 h-10 flex items-center text-xs">
           {weekDays.map((day, index) => (
-            <span key={index + day}>{day}</span>
+            <span
+              className="flex-1 flex justify-center items-center"
+              key={index + day}
+            >
+              {day}
+            </span>
           ))}
         </div>
         <div className="grid grid-cols-7 mx-4">
@@ -72,7 +77,7 @@ const Modal: React.FC<{
         </div>
         <div className="px-4 mt-4">
           <button
-            className="bg-primaryButton w-full font-medium text-white h-9 rounded-[15px] text-[13px] leading-[18px]"
+            className="bg-primaryButton hover:bg-primaryButtonHover transition-all duration-300 w-full font-medium text-white h-9 rounded-[15px] text-[13px] leading-[18px]"
             onClick={() => setIsOpen(false)}
           >
             დამატება
