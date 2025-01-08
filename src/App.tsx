@@ -1,3 +1,4 @@
+import DayPicker from "./components/DayPicker";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProgressBar from "./components/ProgressBar";
@@ -9,9 +10,7 @@ function App() {
       <Header />
       <ProgressBar />
       <TimePicker />
-      {/* <p className="font-medium text-[15px] leading-[21px]">
-        აირჩიე სასურველი თარიღი
-      </p> */}
+      <DayPicker />
       <Footer />
     </main>
   );

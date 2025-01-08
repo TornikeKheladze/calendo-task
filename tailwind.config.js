@@ -16,6 +16,7 @@ export default {
         disabled: "#CBD5E1",
         primaryButton: "#7C1FD1",
         primaryButtonHover: "#6A1BAE",
+        secondaryBlack: "#09101D",
       },
       fontFamily: {
         noto: ["Noto Serif Georgian", "sans-serif"],

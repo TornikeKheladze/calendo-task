@@ -3,7 +3,7 @@ import Backdrop from "./Backdrop";
 import ActionButton from "./ActionButton";
 import CloseIcon from "../assets/icons/CloseIcon";
 import ArrowIcon from "../assets/icons/ArrowIcon";
-import { calendarData, weekDays } from "../data/modalData";
+import { calendarData, weekDays } from "../data/data";
 import { useState } from "react";
 
 const Modal: React.FC<{

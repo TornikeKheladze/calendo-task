@@ -37,3 +37,14 @@ export const calendarData = [
   { id: 34, day: 29, isDisabled: true },
   { id: 35, day: 30, isDisabled: true },
 ];
+
+export const week = ["ორშ", "სამ", "ოთხ", "ხუთ", "პარ", "შაბ", "კვ"];
+
+export const weekData = [
+  { id: 1, day: "ორშ", number: 10 },
+  { id: 2, day: "სამ", number: 11 },
+  { id: 3, day: "ოთხ", number: 12 },
+  { id: 4, day: "ხუთ", number: 13 },
+  { id: 5, day: "პარ", number: 14 },
+  { id: 6, day: "შაბ", number: 15 },
+];
