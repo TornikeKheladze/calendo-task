@@ -9,6 +9,16 @@ export default {
       },
       colors: {
         inactive: "#64748B",
+        lightGray: "#F4F6F9",
+        lightGrayHover: "#E9ECF2",
+        textBlack: "#0F172A",
+        textBlackHover: "#1A2A3A",
+        disabled: "#CBD5E1",
+        primaryButton: "#7C1FD1",
+      },
+      fontFamily: {
+        noto: ["Noto Serif Georgian", "sans-serif"],
+        helvetica: ["Helvetica", "sans-serif"],
       },
     },
   },

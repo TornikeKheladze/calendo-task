@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Noto Serif Georgian";
+  src: url("./assets/fonts/NotoSerifGeorgian-VariableFont_wdth,wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/HelveticaNeueMedium.otf") format("truetype");
+}
