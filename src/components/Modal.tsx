@@ -66,7 +66,10 @@ const Modal: React.FC<{
                   ? "bg-textBlack text-white"
                   : "text-textBlack"
               } `}
-              onClick={() => setSelectedDateId(date.id)}
+              onClick={() => {
+                if (date.isDisabled) return;
+                setSelectedDateId(date.id);
+              }}
             >
               {date.day}
               {date.day === today && (

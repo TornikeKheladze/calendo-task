@@ -48,3 +48,26 @@ export const weekData = [
   { id: 5, day: "პარ", number: 14 },
   { id: 6, day: "შაბ", number: 15 },
 ];
+
+export const schedule = [
+  { time: "10:00", day: "04/04", id: 1 },
+  { time: "10:30", day: "04/04", id: 2 },
+  { time: "11:00", day: "04/04", id: 3 },
+  { time: "11:30", day: "04/04", id: 4 },
+  { time: "12:00", day: "04/04", id: 5 },
+  { time: "12:30", day: "04/04", id: 6 },
+  { time: "13:00", day: "04/04", id: 7 },
+  { time: "13:30", day: "04/04", id: 8 },
+  { time: "14:00", day: "04/04", id: 9 },
+  { time: "14:30", day: "04/04", id: 10 },
+  { time: "15:00", day: "04/04", id: 11 },
+  { time: "15:30", day: "04/04", id: 12 },
+  { time: "16:00", day: "04/04", id: 13 },
+  { time: "16:30", day: "04/04", id: 14 },
+  { time: "17:00", day: "04/04", id: 15 },
+  { time: "17:30", day: "04/04", id: 16 },
+  { time: "18:00", day: "04/04", id: 17 },
+  { time: "18:30", day: "04/04", id: 18 },
+  { time: "19:00", day: "04/04", id: 19 },
+  { time: "19:30", day: "04/04", id: 20 },
+];

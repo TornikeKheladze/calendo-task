@@ -5,7 +5,7 @@ import FooterButton from "./FooterButton";
 
 const Footer = () => {
   return (
-    <footer className="h-20 flex justify-between mx-[25px] fixed bottom-0">
+    <footer className="h-20 flex justify-between items-center fixed bottom-0 left-[25px] right-[25px]">
       <FooterButton active={false}>
         <HomeIcon />
         <span>მთავარი</span>

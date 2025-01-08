@@ -5,7 +5,7 @@ import ActionButton from "./ActionButton";
 
 const Header = () => {
   return (
-    <header className="flex justify-between">
+    <header className="flex justify-between items-center">
       <ActionButton>
         <ArrowIcon />
       </ActionButton>

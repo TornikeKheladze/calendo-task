@@ -17,6 +17,8 @@ export default {
         primaryButton: "#7C1FD1",
         primaryButtonHover: "#6A1BAE",
         secondaryBlack: "#09101D",
+        pickerBorder: "#D9D9D9",
+        secondaryGray: "#747B84",
       },
       fontFamily: {
         noto: ["Noto Serif Georgian", "sans-serif"],
